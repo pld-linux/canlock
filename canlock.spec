@@ -1,13 +1,13 @@
 Summary:	A library for creating and verifying cancel locks
 Summary(pl):	Biblioteka do tworzenia i weryfikowania cancel-locków
 Name:		canlock
-Version:	2a
+Version:	2b
 Release:	1
 License:	BSD-like
 Group:		Libraries
-Source0:	http://homepage.mac.com/imeowbot/%{name}%{version}.tar.gz
-# Source0-md5:	2764d2ea24f97867b095e92339640e11
-URL:		http://cssri.meowing.net/
+Source0:	http://mysite.verizon.net/vze4y7p6/cssri/tar/%{name}%{version}.tar.gz
+# Source0-md5:	b35e464dfc54dcf1e7459a5ad67cb2f2
+URL:		http://homepage.mac.com/imeowbot/iblog/C1355421991/
 BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -46,7 +46,7 @@ Static canlock library.
 Statyczna biblioteka canlock.
 
 %prep
-%setup -q -n %{name}2
+%setup -q -n %{name}%{version}
 
 %build
 %{__make} libcanlock.a \
@@ -70,7 +70,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc CHANGES README doc/HOWTO doc/draft*.txt
+%doc CHANGES README doc
 %attr(755,root,root) %{_libdir}/lib*.so.*.*.*
 
 %files devel
