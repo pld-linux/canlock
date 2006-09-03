@@ -25,7 +25,7 @@ osoby nieuprawnione).
 Summary:	Header files for canlock library
 Summary(pl):	Pliki nag³ówkowe biblioteki canlock
 Group:		Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Header files for canlock library.
@@ -37,7 +37,7 @@ Pliki nag³ówkowe biblioteki canlock.
 Summary:	Static canlock library
 Summary(pl):	Statyczna biblioteka canlock
 Group:		Development/Libraries
-Requires:	%{name}-devel = %{version}
+Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static canlock library.
