@@ -1,5 +1,5 @@
 Summary:	A library for creating and verifying cancel locks
-Summary(pl.UTF-8):   Biblioteka do tworzenia i weryfikowania cancel-locków
+Summary(pl.UTF-8):	Biblioteka do tworzenia i weryfikowania cancel-locków
 Name:		canlock
 Version:	2b
 Release:	1
@@ -23,7 +23,7 @@ osoby nieuprawnione).
 
 %package devel
 Summary:	Header files for canlock library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki canlock
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki canlock
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -35,7 +35,7 @@ Pliki nagłówkowe biblioteki canlock.
 
 %package static
 Summary:	Static canlock library
-Summary(pl.UTF-8):   Statyczna biblioteka canlock
+Summary(pl.UTF-8):	Statyczna biblioteka canlock
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
