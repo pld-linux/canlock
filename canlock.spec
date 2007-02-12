@@ -1,5 +1,5 @@
 Summary:	A library for creating and verifying cancel locks
-Summary(pl):	Biblioteka do tworzenia i weryfikowania cancel-lock體
+Summary(pl.UTF-8):   Biblioteka do tworzenia i weryfikowania cancel-lock贸w
 Name:		canlock
 Version:	2b
 Release:	1
@@ -16,33 +16,33 @@ A library for creating and verifying cancel locks (special news
 articles headers that prevent cancelling articles by unauthorized
 persons).
 
-%description -l pl
-Biblioteka do tworzenia i weryfikowania cancel-lock體 (specjalnych
-nag丑wk體 artyku丑w newsowych zapobiegaj眂ych usuwaniu artyku丑w przez
+%description -l pl.UTF-8
+Biblioteka do tworzenia i weryfikowania cancel-lock贸w (specjalnych
+nag艂贸wk贸w artyku艂贸w newsowych zapobiegaj膮cych usuwaniu artyku艂贸w przez
 osoby nieuprawnione).
 
 %package devel
 Summary:	Header files for canlock library
-Summary(pl):	Pliki nag丑wkowe biblioteki canlock
+Summary(pl.UTF-8):   Pliki nag艂贸wkowe biblioteki canlock
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Header files for canlock library.
 
-%description devel -l pl
-Pliki nag丑wkowe biblioteki canlock.
+%description devel -l pl.UTF-8
+Pliki nag艂贸wkowe biblioteki canlock.
 
 %package static
 Summary:	Static canlock library
-Summary(pl):	Statyczna biblioteka canlock
+Summary(pl.UTF-8):   Statyczna biblioteka canlock
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static canlock library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka canlock.
 
 %prep
