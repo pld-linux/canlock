@@ -77,9 +77,9 @@ rm -rf $RPM_BUILD_ROOT
 %files devel
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_libdir}/libcanlock.so
-%{_libdir}/lib*.la
+%{_libdir}/libcanlock.la
 %{_includedir}/canlock.h
 
 %files static
 %defattr(644,root,root,755)
-%{_libdir}/lib*.a
+%{_libdir}/libcanlock.a
