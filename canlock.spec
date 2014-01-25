@@ -2,7 +2,7 @@ Summary:	A library for creating and verifying cancel locks
 Summary(pl.UTF-8):	Biblioteka do tworzenia i weryfikowania cancel-locków
 Name:		canlock
 Version:	2b
-Release:	2
+Release:	3
 License:	BSD-like
 Group:		Libraries
 Source0:	http://mysite.verizon.net/vze4y7p6/cssri/tar/%{name}%{version}.tar.gz
@@ -71,11 +71,12 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc CHANGES README doc
-%attr(755,root,root) %{_libdir}/lib*.so.*.*.*
+%attr(755,root,root) %{_libdir}/libcanlock.so.*.*.*
+%attr(755,root,root) %ghost %{_libdir}/libcanlock.so.0
 
 %files devel
 %defattr(644,root,root,755)
-%attr(755,root,root) %{_libdir}/lib*.so
+%attr(755,root,root) %{_libdir}/libcanlock.so
 %{_libdir}/lib*.la
 %{_includedir}/canlock.h
 
