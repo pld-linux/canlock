@@ -7,7 +7,7 @@ License:	BSD-like
 Group:		Libraries
 Source0:	http://mysite.verizon.net/vze4y7p6/cssri/tar/%{name}%{version}.tar.gz
 # Source0-md5:	b35e464dfc54dcf1e7459a5ad67cb2f2
-URL:		http://homepage.mac.com/imeowbot/iblog/C1355421991/
+URL:		http://albasani.net/wiki/Cancel-Lock
 BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
