@@ -1,8 +1,9 @@
+# NOTE: for version >= 3 see libcanlock.spec
 Summary:	A library for creating and verifying cancel locks
 Summary(pl.UTF-8):	Biblioteka do tworzenia i weryfikowania cancel-locków
 Name:		canlock
 Version:	2b
-Release:	4
+Release:	4.1
 License:	BSD-like
 Group:		Libraries
 Source0:	http://mysite.verizon.net/vze4y7p6/cssri/tar/%{name}%{version}.tar.gz
